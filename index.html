@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form><h1><pre>      Medical Examination Form</pre></h1>
+        <label for="user">Application full name: </label><br>
+            <input type="text" id="user" name="name" placeholder="First" value="Bunny" required/>
+            <input type="text" id="user" name="name" placeholder="Last" />
+        <br><br>
+        <label for="user">Date of Birth: </label><br>
+            <input type="date" id="user" name="name"  placeholder="MM/DD/YYYY" disabled/> 
+        <br><br>
+        <label for="user">Email address: </label><br>
+            <input type="text" id="user" name="name"/> 
+        <br><br>
+        <label for="phone">Mobile number: </label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" /> 
+        <br><br>
+        <label for="officers">Examination for duty as:</label><br>
+            <input type="text" id="officers" name="officers" value="Master"/>Master
+            <input type="radio" id="officers" name="officers"  value="Deck officer"/>Deck officer
+            <input type="radio" id="officers" name="officers"  value="Engineering officer"/>Engineering officer
+            <input type="radio" id="officers" name="officers"  value="Radio officer"/>Radio officer
+            <input type="radio" id="officers" name="officers"  value="Rating"/>Rating
+            <input type="radio" id="officers" name="officers" value="Others"/>Others
+        <br><br>
+        <label>Height & Weight: </label><br>
+            <input type="text"/>
+        <br><br>
+        <label for="spects">Do you wear glasses or contact lenses? </label>
+        <br>
+            <input type="radio" id="for" name="spects"/>Yes
+            <input type="radio" id="for" name="spects"/>No
+        <br><br>
+        <label for="tm">Time</label>
+        <input type="time" id="tm">
+        <br><br>
+        <label for="bunny">Password: </label><br>
+            <input type="password" id="bunny" name="bantu"/>
+        <br><br>
+        <label for="lett">Do you take any non-prescription or prescription medication? <br>
+        (if yes, please fill the details)</label>
+        <br>
+            <input type="text" id="lett" name="lett"/>
+        <br><br>
+            <input type="submit"/>
+            <input type="reset">
+    </form>
+</body>
+</html>
